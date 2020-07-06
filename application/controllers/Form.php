@@ -254,16 +254,18 @@ class Form extends MY_Controller
 			$success = false;
 		}
 
-		$this->email->from($configFile['smtp_user'], 'Rental Tracker');
-		$this->email->to('info@rentaltracker.nl');
-		$this->email->subject(str_replace("%IMEI%", $this->input->post('imei_code'), $this->lang->line('email_subject')));
-		$this->email->message($this->lang->line('email_body'));
-		$this->email->attach($pdfPath);
+		if (!empty($configFile['default_mail'])) {
+			$this->email->from($configFile['smtp_user'], 'Rental Tracker');
+			$this->email->to($configFile['default_mail']);
+			$this->email->subject(str_replace("%IMEI%", $this->input->post('imei_code'), $this->lang->line('email_subject')));
+			$this->email->message($this->lang->line('email_body'));
+			$this->email->attach($pdfPath);
 
-		if ($this->email->send()) {
-			$success = true;
-		} else {
-			$success = false;
+			if ($this->email->send()) {
+				$success = true;
+			} else {
+				$success = false;
+			}
 		}
 
 		return $success;

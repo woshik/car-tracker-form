@@ -6,4 +6,5 @@ return array(
     'smtp_port' => 465,
     'smtp_user' => 'admin@hyperqueue.com',
     'smtp_pass' => 'O=%WZ?wC$Tn(',
+    'default_mail' => 'info@rentaltracker.nl',
 );

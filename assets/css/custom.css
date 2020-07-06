@@ -550,7 +550,7 @@ input[type='file'] {
 
 /* qrcode bar code styles */
 
-#qrcode-barcode-wrapper {
+#qrcode-wrapper {
   display: none;
   z-index: 99999999999 !important;
   position: absolute;
@@ -595,37 +595,19 @@ input[type='file'] {
   font-weight: bolder;
 }
 
-#select-code-wrapper {
-  width: 295px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-#select-code-wrapper label {
-  display: block;
-  margin-bottom: 12px;
-  text-align: center;
-}
-
-#select-code-option {
-  border: 1px solid;
-  padding: 0 10px;
-}
-
-#qrcode-canvas,
-#barcode-canvas {
-  display: none;
-  width: 450px !important;
-  height: 380px !important;
-}
-
-#barcode-canvas video {
+#qr-reader {
   width: 100% !important;
   height: 100% !important;
 }
 
+video {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+canvas {
+  display: none !important;
+}
 /* qrcode bar code styles end */
 
 @media (max-width: 992px) {
