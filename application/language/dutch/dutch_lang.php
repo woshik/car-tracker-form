@@ -28,18 +28,18 @@ $lang['select'] = "Selecteer";
 $lang['is_not_valid'] = "is niet geldig";
 $lang['email_subject'] = "Nieuw inbouw formulier - IMEI-(%IMEI%) - (%LICENSE%)";
 $lang['email_body'] = "
-    Beste,\n\n
-    Er is een inbouwformulier ingevuld op https://rentaltracker.nl. In deze mail sturen wij u het inbouwformulier in PDF formaat op.\n\n
-    Met vriendelijke groet,\n
-    Rental Tracker\n\n
-    (%LANG_car_brand%)         : (%car_brand%)\n
-    (%LANG_type_of_car%)       : (%type_of_car%)\n
-    (%LANG_license_plate%)     : (%license_plate%)\n
-    (%LANG_email_address%)     : (%email_address%)\n
-    (%LANG_email_address_2%)   : (%email_address_2%)\n
-    (%LANG_mileage%)           : (%mileage%)\n
-    (%LANG_working_hours%)     : (%working_hours%)\n
-    (%LANG_imei_code%)         : (%imei_code%)\n
+Beste,\n
+Er is een inbouwformulier ingevuld op https://rentaltracker.nl. In deze mail sturen wij u het inbouwformulier in PDF formaat op.\n
+Met vriendelijke groet,
+Rental Tracker\n
+(%LANG_car_brand%)         : (%car_brand%)
+(%LANG_type_of_car%)       : (%type_of_car%)
+(%LANG_license_plate%)     : (%license_plate%)
+(%LANG_email_address%)     : (%email_address%)
+(%LANG_email_address_2%)   : (%email_address_2%)
+(%LANG_mileage%)           : (%mileage%)
+(%LANG_working_hours%)     : (%working_hours%)
+(%LANG_imei_code%)         : (%imei_code%)
 ";
 $lang['upload_jpg_or_png_file'] = "Upload afbeelding van IMEI-code is vereist binnen 5 MB";
 $lang['picture_of_imei_code'] = "Afbeelding van IMEI-code";

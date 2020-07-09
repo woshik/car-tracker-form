@@ -28,20 +28,20 @@ $lang['select'] = "Select";
 $lang['is_not_valid'] = "isn't valid";
 $lang['email_subject'] = "New installation form - IMEI-(%IMEI%) - (%LICENSE%)";
 $lang['email_body'] = "
-    Hi,\n\n
-    A build-in form has been completed at . In this email we will send you the installation form in PDF format.\n\n
-    Sincerely,\n
-    Rental Tracker\n
-    https://rentaltracker.eu\n\n
-    (%LANG_car_brand%)         : (%car_brand%)\n
-    (%LANG_type_of_car%)       : (%type_of_car%)\n
-    (%LANG_license_plate%)     : (%license_plate%)\n
-    (%LANG_email_address%)     : (%email_address%)\n
-    (%LANG_email_address_2%)   : (%email_address_2%)\n
-    (%LANG_mileage%)           : (%mileage%)\n
-    (%LANG_working_hours%)     : (%working_hours%)\n
-    (%LANG_imei_code%)         : (%imei_code%)\n
-    ";
+Hi,\n
+A build-in form has been completed at. In this email we will send you the installation form in PDF format.\n
+Sincerely,
+Rental Tracker
+https://rentaltracker.eu\n
+(%LANG_car_brand%)         : (%car_brand%)
+(%LANG_type_of_car%)       : (%type_of_car%)
+(%LANG_license_plate%)     : (%license_plate%)
+(%LANG_email_address%)     : (%email_address%)
+(%LANG_email_address_2%)   : (%email_address_2%)
+(%LANG_mileage%)           : (%mileage%)
+(%LANG_working_hours%)     : (%working_hours%)
+(%LANG_imei_code%)         : (%imei_code%)
+";
 $lang['upload_jpg_or_png_file'] = "Upload picture of IMEI code is required within 5MB";
 $lang['picture_of_imei_code'] = "Picture of IMEI code";
 $lang['picture_of_placement'] = "Picture of placement";

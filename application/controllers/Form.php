@@ -249,8 +249,8 @@ class Form extends MY_Controller
 			$emailAddress .= ', ' . $this->input->post('email_address_2');
 		}
 
-		$subject = str_replace("%IMEI%", $this->input->post('imei_code'), $this->lang->line('email_subject'));
-		$subject = str_replace("%LICENSE%", $this->input->post('license_plate'), $subject);
+		$subject = str_replace("(%IMEI%)", $this->input->post('imei_code'), $this->lang->line('email_subject'));
+		$subject = str_replace("(%LICENSE%)", $this->input->post('license_plate'), $subject);
 
 		$body = str_replace("(%LANG_car_brand%)", $this->lang->line('car_brand'), $this->lang->line('email_body'));
 		$body = str_replace("(%car_brand%)", $this->input->post('car_brand'), $body);
