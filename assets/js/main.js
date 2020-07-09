@@ -77,6 +77,7 @@ $(document).ready(function () {
                   }
                 });
 
+                document.querySelector('.form-success-message').classList.add('show-form-success-message');
                 document.getElementById('for_imei_picture').innerText = imageFieldInnerText1;
                 document.getElementById('for_placement_picture').innerText = imageFieldInnerText2;
                 document.getElementById('for_license_plate_picture').innerText = imageFieldInnerText3;
@@ -89,7 +90,7 @@ $(document).ready(function () {
                 );
               }
 
-              showServerMessage(res.messages, res.error ? '#c0392b' : '#2980b9');
+              showServerMessage(res.messages, res.error ? '#c0392b' : '#27ae60');
             }
           },
           complete: function complete() {
@@ -123,5 +124,5 @@ function showServerMessage(message, color) {
 
   serverMessageShowTimeOut = setTimeout(function () {
     serverMessage.classList.remove('show-message');
-  }, 10000);
+  }, 15000);
 }

@@ -1,10 +1,10 @@
 <?php
 
 return array(
-    'gscript_URL' => 'https://script.google.com/macros/s/AKfycby9eawe2SaEm-muAkTFRJglmW4FEgZNvDPzqg7uLiXv1VafkH4/exec',
-    'smtp_host' => 'mail.hyperqueue.com',
+    'gscript_URL' => 'https://script.google.com/macros/s/AKfycbys4f0Ql_1swlH7tX5oXGA2nG00vADTXFEbVGE2feh533Gjyz5C/exec',
+    'smtp_host' => '',
     'smtp_port' => 465,
-    'smtp_user' => 'admin@hyperqueue.com',
-    'smtp_pass' => 'O=%WZ?wC$Tn(',
+    'smtp_user' => '',
+    'smtp_pass' => '',
     'default_mail' => 'info@rentaltracker.nl',
 );

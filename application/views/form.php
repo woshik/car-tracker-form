@@ -30,8 +30,12 @@
         </header>
         <div id="server-message" style="-webkit-transform: translateX(300px);-moz-transform: translateX(300px);-ms-transform: translateX(300px);-o-transform: translateX(300px);transform: translateX(300px);"></div>
         <div class="container-contact100">
+
+
+
             <div class="wrap-contact100">
                 <?= form_open($lang . '/form/submit', ['class' => 'contact100-form', 'id' => 'installation-form']); ?>
+                <div class="form-success-message" style="opacity: 0;"><?= $form_submit_message ?></div>
                 <span class="contact100-form-title ">
                     <?= $installation_form ?>
                 </span>
@@ -109,8 +113,6 @@
             </div>
         </div>
     </div>
-
-    <select style="display: none;" id="camera-select"></select>
 
     <script src="<?= base_url('/assets/js/jquery-3.5.1.min.js') ?>" defer></script>
     <script src="<?= base_url('/assets/js/lib/html5-qrcode.min.js') ?>" defer></script>

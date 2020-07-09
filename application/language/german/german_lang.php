@@ -26,9 +26,25 @@ $lang['server_error'] = "Serverfehler, bitte versuchen Sie es erneut";
 $lang['select_bar_qr_scanner'] = "Wählen Sie Barcode / QR-Code-Scanner";
 $lang['select'] = "Wählen";
 $lang['is_not_valid'] = "ist nicht gültig";
-$lang['email_subject'] = "Neues Installationsformular - (%IMEI%)";
-$lang['email_body'] = "Hallo,\n\nEin eingebautes Formular wurde unter ausgefüllt. In dieser E-Mail senden wir Ihnen das Installationsformular im PDF-Format.\n\nMit freundlichen Grüßen,\nVermietung Tracker\nhttps://rentaltracker.de";
+$lang['email_subject'] = "Neues Installationsformular - IMEI-(%IMEI%) - (%LICENSE%)";
+$lang['email_body'] = "
+    Hallo,\n\n
+    Ein eingebautes Formular wurde unter ausgefüllt. In dieser E-Mail senden wir Ihnen das Installationsformular im PDF-Format.\n\n
+    Mit freundlichen Grüßen,\n
+    Vermietung Tracker\n
+    https://rentaltracker.de\n\n
+    (%LANG_car_brand%)         : (%car_brand%)\n
+    (%LANG_type_of_car%)       : (%type_of_car%)\n
+    (%LANG_license_plate%)     : (%license_plate%)\n
+    (%LANG_email_address%)     : (%email_address%)\n
+    (%LANG_email_address_2%)   : (%email_address_2%)\n
+    (%LANG_mileage%)           : (%mileage%)\n
+    (%LANG_working_hours%)     : (%working_hours%)\n
+    (%LANG_imei_code%)         : (%imei_code%)\n
+";
+
 $lang['upload_jpg_or_png_file'] = "Der Upload eines IMEI-Codes ist 5 MB vereist";
 $lang['picture_of_imei_code'] = "Bild des IMEI-Codes";
 $lang['picture_of_placement'] = "Bild der Platzierung";
 $lang['picture_of_license_plate'] = "Bild des Nummernschildes";
+$lang['form_submit_message'] = "Ihr vorheriges Formular wurde erfolgreich gesendet.";
