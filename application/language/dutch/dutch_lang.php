@@ -32,14 +32,14 @@ Beste,\n
 Er is een inbouwformulier ingevuld op https://rentaltracker.nl. In deze mail sturen wij u het inbouwformulier in PDF formaat op.\n
 Met vriendelijke groet,
 Rental Tracker\n
-(%LANG_car_brand%)         : (%car_brand%)
-(%LANG_type_of_car%)       : (%type_of_car%)
-(%LANG_license_plate%)     : (%license_plate%)
-(%LANG_email_address%)     : (%email_address%)
-(%LANG_email_address_2%)   : (%email_address_2%)
-(%LANG_mileage%)           : (%mileage%)
-(%LANG_working_hours%)     : (%working_hours%)
-(%LANG_imei_code%)         : (%imei_code%)
+(%LANG_car_brand%): (%car_brand%)
+(%LANG_type_of_car%): (%type_of_car%)
+(%LANG_license_plate%): (%license_plate%)
+(%LANG_email_address%): (%email_address%)
+(%LANG_email_address_2%): (%email_address_2%)
+(%LANG_mileage%): (%mileage%)
+(%LANG_working_hours%): (%working_hours%)
+(%LANG_imei_code%): (%imei_code%)
 ";
 $lang['upload_jpg_or_png_file'] = "Upload afbeelding van IMEI-code is vereist binnen 5 MB";
 $lang['picture_of_imei_code'] = "Afbeelding van IMEI-code";

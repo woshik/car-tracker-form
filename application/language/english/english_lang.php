@@ -33,14 +33,14 @@ A build-in form has been completed at. In this email we will send you the instal
 Sincerely,
 Rental Tracker
 https://rentaltracker.eu\n
-(%LANG_car_brand%)         : (%car_brand%)
-(%LANG_type_of_car%)       : (%type_of_car%)
-(%LANG_license_plate%)     : (%license_plate%)
-(%LANG_email_address%)     : (%email_address%)
-(%LANG_email_address_2%)   : (%email_address_2%)
-(%LANG_mileage%)           : (%mileage%)
-(%LANG_working_hours%)     : (%working_hours%)
-(%LANG_imei_code%)         : (%imei_code%)
+(%LANG_car_brand%): (%car_brand%)
+(%LANG_type_of_car%): (%type_of_car%)
+(%LANG_license_plate%): (%license_plate%)
+(%LANG_email_address%): (%email_address%)
+(%LANG_email_address_2%): (%email_address_2%)
+(%LANG_mileage%): (%mileage%)
+(%LANG_working_hours%): (%working_hours%)
+(%LANG_imei_code%): (%imei_code%)
 ";
 $lang['upload_jpg_or_png_file'] = "Upload picture of IMEI code is required within 5MB";
 $lang['picture_of_imei_code'] = "Picture of IMEI code";

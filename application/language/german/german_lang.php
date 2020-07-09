@@ -33,14 +33,14 @@ Ein eingebautes Formular wurde unter ausgefüllt. In dieser E-Mail senden wir Ih
 Mit freundlichen Grüßen,
 Vermietung Tracker
 https://rentaltracker.de\n
-(%LANG_car_brand%)         : (%car_brand%)
-(%LANG_type_of_car%)       : (%type_of_car%)
-(%LANG_license_plate%)     : (%license_plate%)
-(%LANG_email_address%)     : (%email_address%)
-(%LANG_email_address_2%)   : (%email_address_2%)
-(%LANG_mileage%)           : (%mileage%)
-(%LANG_working_hours%)     : (%working_hours%)
-(%LANG_imei_code%)         : (%imei_code%)
+(%LANG_car_brand%): (%car_brand%)
+(%LANG_type_of_car%): (%type_of_car%)
+(%LANG_license_plate%): (%license_plate%)
+(%LANG_email_address%): (%email_address%)
+(%LANG_email_address_2%): (%email_address_2%)
+(%LANG_mileage%): (%mileage%)
+(%LANG_working_hours%): (%working_hours%)
+(%LANG_imei_code%): (%imei_code%)
 ";
 
 $lang['upload_jpg_or_png_file'] = "Der Upload eines IMEI-Codes ist 5 MB vereist";
