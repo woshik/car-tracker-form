@@ -93,17 +93,17 @@
                 <p class="text-important"><?= $important ?></p>
                 <div class="wrap-input100 validate-input file-wrap">
                     <label class="label-input100 file-input-label" id="for_imei_picture" for="imei_picture"><?= $imei_picture ?> (<?= $required ?>)</label>
-                    <input class="input100" type="file" name="imei_picture" accept=".png,.jpg,.jpeg" id="imei_picture" autocomplete="off">
+                    <input class="input100" type="file" name="imei_picture" accept=".jpg,.jpeg" id="imei_picture" autocomplete="off">
                 </div>
 
                 <div class="wrap-input100 validate-input file-wrap">
                     <label class="label-input100 file-input-label" id="for_placement_picture" for="placement_picture"><?= $placement_picture ?></label>
-                    <input class="input100" type="file" name="placement_picture" accept=".png,.jpg,.jpeg" id="placement_picture" autocomplete="off">
+                    <input class="input100" type="file" name="placement_picture" accept=".jpg,.jpeg" id="placement_picture" autocomplete="off">
                 </div>
 
                 <div class="wrap-input100 validate-input file-wrap">
                     <label class="label-input100 file-input-label" id="for_license_plate_picture" for="license_plate_picture"><?= $license_plate_picture ?></label>
-                    <input class="input100" type="file" name="license_plate_picture" accept=".png,.jpg,.jpeg" id="license_plate_picture" autocomplete="off">
+                    <input class="input100" type="file" name="license_plate_picture" accept=".jpg,.jpeg" id="license_plate_picture" autocomplete="off">
                 </div>
 
                 <div class="button-wrap">

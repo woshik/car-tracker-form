@@ -1,15 +1,17 @@
+'use strict';
+
 var html5QrCodeObj;
 
 function startCam(e) {
   Html5Qrcode.getCameras()
-    .then((devices) => {
+    .then(function (devices) {
       if (devices && devices.length) {
         html5QrCodeObj = new Html5Qrcode('qr-reader');
         var cameraId;
 
         if (devices.length > 1) {
           for (var index = 0; index < devices.length; index++) {
-            if(devices[index].label.match(/back/ig)) {
+            if (devices[index].label.match(/back/gi)) {
               cameraId = devices[index].id;
               break;
             } else {
@@ -17,7 +19,7 @@ function startCam(e) {
             }
           }
         } else {
-          cameraId =  devices[0].id;
+          cameraId = devices[0].id;
         }
 
         document.getElementById('qrcode-wrapper').style.display = 'flex';
@@ -26,20 +28,21 @@ function startCam(e) {
           .start(
             cameraId,
             {
-              fps: 30, // Optional frame per seconds for qr code scanning
+              fps: 30,
+              // Optional frame per seconds for qr code scanning
               qrbox: 300, // Optional if you want bounded box UI
             },
-            (qrCodeMessage) => {
+            function (qrCodeMessage) {
               e.parentElement.children[2].value = qrCodeMessage;
               stopCam();
             }
           )
-          .catch((err) => {});
+          .catch(function (err) {});
       } else {
         alert('No device found');
       }
     })
-    .catch((err) => {
+    .catch(function (err) {
       alert('Camera not found or Please update your browser.');
     });
 }
@@ -48,10 +51,10 @@ function stopCam() {
   if (html5QrCodeObj) {
     html5QrCodeObj
       .stop()
-      .then((ignore) => {
+      .then(function (ignore) {
         hideCanvas();
       })
-      .catch((err) => {
+      .catch(function (err) {
         alert(err.message || err);
       });
   } else {
